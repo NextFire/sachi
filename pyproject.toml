@@ -12,7 +12,7 @@ sachi = "sachi:cli_app"
 
 [tool.poetry.dependencies]
 python = "~3.12"
-typer = { version = "0.10.0", extras = ["all"] }
+typer = { version = "0.11.0", extras = ["all"] }
 textual = "0.54.0"
 tomlkit = "0.12.4"
 pydantic = "2.6.4"
