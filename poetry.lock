@@ -1202,13 +1202,13 @@ files = [
 
 [[package]]
 name = "textual"
-version = "0.56.4"
+version = "0.57.0"
 description = "Modern Text User Interface framework"
 optional = false
 python-versions = "<4.0,>=3.8"
 files = [
-    {file = "textual-0.56.4-py3-none-any.whl", hash = "sha256:94a7e6892223348279fed8a9e27f51a9d0ff7a860b60176415ef1d7a796569ac"},
-    {file = "textual-0.56.4.tar.gz", hash = "sha256:6f86ae5b4fd750bc48881c941e1a86f7a188c24a862122002e3ac38cd288ef47"},
+    {file = "textual-0.57.0-py3-none-any.whl", hash = "sha256:90cee57d7ec453fe4a65e2a2a917478a07188e250ebee8bdd55a26aeb06833f8"},
+    {file = "textual-0.57.0.tar.gz", hash = "sha256:1ba65c8516c9332670ddca5c29dfe1a1f9b647728703c9a7cd628810368bbc20"},
 ]
 
 [package.dependencies]
@@ -1399,4 +1399,4 @@ multidict = ">=4.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "~3.12"
-content-hash = "ae17f075248e7d805dc9e0175346be131c0d4bde181c5f4c77157b3f617f1270"
+content-hash = "4625949714f7c7ba99cb0eb071ab1dde4d874c03edf1f376a33c726f2f4c012b"
