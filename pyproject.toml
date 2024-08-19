@@ -22,7 +22,7 @@ backoff = "2.2.1"
 jinja2 = "3.1.4"
 pymediainfo = "6.1.0"
 guessit = "3.8.0"
-setuptools = { version = "72.2.0", markers = "python_version >= '3.12'" } # guessit
+setuptools = { version = "73.0.0", markers = "python_version >= '3.12'" } # guessit
 
 [tool.poetry.group.dev.dependencies]
 pyright = "1.1.376"
