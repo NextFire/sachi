@@ -13,7 +13,7 @@ sachi = "sachi:cli_app"
 [tool.poetry.dependencies]
 python = "~3.12"
 typer-slim = { version = "0.12.5", extras = ["standard"] }
-textual = "0.78.0"
+textual = "0.79.0"
 tomlkit = "0.13.2"
 pydantic = "2.8.2"
 aiohttp = { version = "3.10.5", extras = ["speedups"] }
