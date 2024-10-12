@@ -1,6 +1,6 @@
 [project]
 name = "sachi"
-version = "0.2.2-dev"
+version = "0.3.0"
 description = "Terminal media files renamer (FileBot alternative)"
 readme = "README.md"
 license = { file = "LICENSE" }
