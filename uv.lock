@@ -730,7 +730,7 @@ wheels = [
 
 [[package]]
 name = "sachi"
-version = "0.1.dev347+g1571804"
+version = "0.1.dev348+gf303265.d20241203"
 source = { editable = "." }
 dependencies = [
     { name = "aiohttp", extra = ["speedups"] },
@@ -764,7 +764,7 @@ requires-dist = [
     { name = "setuptools", specifier = "==75.6.0" },
     { name = "textual", specifier = "==0.88.1" },
     { name = "tomlkit", specifier = "==0.13.2" },
-    { name = "typer", specifier = "==0.14.0" },
+    { name = "typer", specifier = "==0.15.0" },
     { name = "yarl", specifier = "==1.18.3" },
 ]
 
@@ -861,7 +861,7 @@ wheels = [
 
 [[package]]
 name = "typer"
-version = "0.14.0"
+version = "0.15.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "click" },
@@ -869,9 +869,9 @@ dependencies = [
     { name = "shellingham" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/0d/7e/24af5b9aaa0872f9f6dc5dcf789dc3e57ceb23b4c570b852cd4db0d98f14/typer-0.14.0.tar.gz", hash = "sha256:af58f737f8d0c0c37b9f955a6d39000b9ff97813afcbeef56af5e37cf743b45a", size = 98836 }
+sdist = { url = "https://files.pythonhosted.org/packages/69/82/5bb5c124bcb7b7f14006791b172df0d731cbd10b377bb336685e7ebf0166/typer-0.15.0.tar.gz", hash = "sha256:8995452a598922ed8d8ad8c06ca63a218881ab601f5fa6fb0c511f7776497c7e", size = 99794 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/bb/d8/a3ab71d5587b42b832a7ef2e65b3e51a18f8da32b6ce169637d4d21995ed/typer-0.14.0-py3-none-any.whl", hash = "sha256:f476233a25770ab3e7b2eebf7c68f3bc702031681a008b20167573a4b7018f09", size = 44707 },
+    { url = "https://files.pythonhosted.org/packages/e9/88/9ba31984811331d55bd384c603cdad189b3503c6c8e66366064f10983f3f/typer-0.15.0-py3-none-any.whl", hash = "sha256:bd16241db7e0f989ce1a0d8faa5aa1e43b9b9ac3fd1d4b8bcff91503d6717e38", size = 44733 },
 ]
 
 [[package]]
