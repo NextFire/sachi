@@ -1,4 +1,5 @@
 version = 1
+revision = 1
 requires-python = ">=3.12"
 
 [[package]]
@@ -765,7 +766,7 @@ requires-dist = [
     { name = "pydantic", specifier = "==2.10.6" },
     { name = "pymediainfo", specifier = "==7.0.1" },
     { name = "setuptools", specifier = "==75.8.0" },
-    { name = "textual", specifier = "==1.0.0" },
+    { name = "textual", specifier = "==2.0.1" },
     { name = "tomlkit", specifier = "==0.13.2" },
     { name = "typer", specifier = "==0.15.1" },
     { name = "yarl", specifier = "==1.18.3" },
@@ -807,7 +808,7 @@ wheels = [
 
 [[package]]
 name = "textual"
-version = "1.0.0"
+version = "2.0.1"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "markdown-it-py", extra = ["linkify", "plugins"] },
@@ -815,9 +816,9 @@ dependencies = [
     { name = "rich" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/1f/b6/59b1de04bb4dca0f21ed7ba0b19309ed7f3f5de4396edf20cc2855e53085/textual-1.0.0.tar.gz", hash = "sha256:bec9fe63547c1c552569d1b75d309038b7d456c03f86dfa3706ddb099b151399", size = 1532733 }
+sdist = { url = "https://files.pythonhosted.org/packages/46/ee/c279280f592c379431e2e86c06849ec87c9be503f67d6f80402082aebd97/textual-2.0.1.tar.gz", hash = "sha256:bbb0968234d94eaf8e75270aa1d84b422affb03b367ad5170a51f1de12ac1d74", size = 1591680 }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/ac/bb/5fb6656c625019cd653d5215237d7cd6e0b12e7eae4195c3d1c91b2136fc/textual-1.0.0-py3-none-any.whl", hash = "sha256:2d4a701781c05104925e463ae370c630567c70c2880e92ab838052e3e23c986f", size = 660456 },
+    { url = "https://files.pythonhosted.org/packages/cd/d0/b9b52475900e312068ff53672aeb7f18ceff0641fa86e8a70317a54ebec4/textual-2.0.1-py3-none-any.whl", hash = "sha256:6ca475c24c14fcf9ff285c66ab53280f02950a959fa7aa2b99b5111fc08c5688", size = 679478 },
 ]
 
 [[package]]
