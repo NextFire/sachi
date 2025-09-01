@@ -835,7 +835,7 @@ requires-dist = [
     { name = "pydantic", specifier = "==2.11.7" },
     { name = "pymediainfo", specifier = "==7.0.1" },
     { name = "setuptools", specifier = "==80.9.0" },
-    { name = "textual", specifier = "==4.0.0" },
+    { name = "textual", specifier = "==6.0.0" },
     { name = "tomlkit", specifier = "==0.13.3" },
     { name = "typer", specifier = "==0.17.3" },
     { name = "yarl", specifier = "==1.20.1" },
@@ -877,17 +877,18 @@ wheels = [
 
 [[package]]
 name = "textual"
-version = "4.0.0"
+version = "6.0.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "markdown-it-py", extra = ["linkify", "plugins"] },
     { name = "platformdirs" },
+    { name = "pygments" },
     { name = "rich" },
     { name = "typing-extensions" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/f1/22/a2812ab1e5b0cb3a327a4ea79b430234c2271ba13462b989f435b40a247d/textual-4.0.0.tar.gz", hash = "sha256:1cab4ea3cfc0e47ae773405cdd6bc2a17ed76ff7b648379ac8017ea89c5ad28c", size = 1606128, upload-time = "2025-07-12T09:41:20.812Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/f1/e6/db89df54e3b0eac83d26fc90175cf4835c8d9461957b9e6b51494c686bd4/textual-6.0.0.tar.gz", hash = "sha256:cb8882e7601a80a130a96d01393bd4c6d1bffb7dc9f6a820eb6b526acf0bfe10", size = 1562240, upload-time = "2025-08-31T16:17:17.374Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d8/e4/ebe27c54d2534cc41d00ea1d78b783763f97abf3e3d6dd41e5536daa52a5/textual-4.0.0-py3-none-any.whl", hash = "sha256:214051640f890676a670aa7d29cd2a37d27cfe6b2cf866e9d5abc3b6c89c5800", size = 692382, upload-time = "2025-07-12T09:41:18.828Z" },
+    { url = "https://files.pythonhosted.org/packages/a6/16/d4748acb854ead2891d7cc104a956febc5e569bfac82b061f51219cb087a/textual-6.0.0-py3-none-any.whl", hash = "sha256:833588ebe6c7b0e58d085a018cf064b995aa1ee9632fa95229acf7ac2ef8be9f", size = 707329, upload-time = "2025-08-31T16:17:15.638Z" },
 ]
 
 [[package]]
