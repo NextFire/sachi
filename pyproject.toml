@@ -7,7 +7,7 @@ license = "MIT"
 authors = [{ name = "NextFire", email = "git@yuru.moe" }]
 requires-python = ">=3.12"
 dependencies = [
-    "typer==0.18.0",
+    "typer==0.19.0",
     "textual==6.1.0",
     "tomlkit==0.13.3",
     "pydantic==2.11.9",
