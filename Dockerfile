@@ -1,4 +1,4 @@
-FROM ghcr.io/astral-sh/uv:python3.13-bookworm
+FROM ghcr.io/astral-sh/uv:python3.14-trixie
 
 ENV DEBIAN_FRONTEND=noninteractive
 
