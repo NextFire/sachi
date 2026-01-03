@@ -8,7 +8,7 @@ authors = [{ name = "NextFire", email = "git@yuru.moe" }]
 requires-python = ">=3.12"
 dependencies = [
     "typer==0.21.0",
-    "textual==6.12.0",
+    "textual==7.0.0",
     "tomlkit==0.13.3",
     "pydantic==2.12.5",
     "aiohttp[speedups]==3.13.2",
