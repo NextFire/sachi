@@ -1148,7 +1148,7 @@ requires-dist = [
     { name = "setuptools", specifier = "==82.0.0" },
     { name = "textual", specifier = "==7.5.0" },
     { name = "tomlkit", specifier = "==0.14.0" },
-    { name = "typer", specifier = "==0.21.2" },
+    { name = "typer", specifier = "==0.22.0" },
     { name = "yarl", specifier = "==1.22.0" },
 ]
 
@@ -1247,7 +1247,7 @@ wheels = [
 
 [[package]]
 name = "typer"
-version = "0.21.2"
+version = "0.22.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "annotated-doc" },
@@ -1255,9 +1255,9 @@ dependencies = [
     { name = "rich" },
     { name = "shellingham" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/f2/1e/a27cc02a0cd715118c71fa2aef2c687fdefc3c28d90fd0dd789c5118154c/typer-0.21.2.tar.gz", hash = "sha256:1abd95a3b675e17ff61b0838ac637fe9478d446d62ad17fa4bb81ea57cc54028", size = 120426, upload-time = "2026-02-10T19:33:46.182Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/5c/03/b732764b567a81f1aa125a84a0535aa267ea3b1c9ac95e5a97a7b9a0fdaf/typer-0.22.0.tar.gz", hash = "sha256:3cab90c100ca37be24f8b4c942fdb95fc41a96145192af0fd34e0567e83c3880", size = 120281, upload-time = "2026-02-11T11:00:14.702Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/b8/cc/d59f893fbdfb5f58770c05febfc4086a46875f1084453621c35605cec946/typer-0.21.2-py3-none-any.whl", hash = "sha256:c3d8de54d00347ef90b82131ca946274f017cffb46683ae3883c360fa958f55c", size = 56728, upload-time = "2026-02-10T19:33:48.01Z" },
+    { url = "https://files.pythonhosted.org/packages/4b/e7/61b0dd194be67021ff7c6c87b66511d7691b9b241b2a67a2a5e3842e531b/typer-0.22.0-py3-none-any.whl", hash = "sha256:7005624db6209bc9228572d7faa3a3a4ebe6b7a3e157c63d34d4b8f17137888b", size = 56641, upload-time = "2026-02-11T11:00:13.109Z" },
 ]
 
 [[package]]
