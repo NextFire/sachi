@@ -9,7 +9,7 @@ requires-python = ">=3.12"
 dependencies = [
     "typer==0.25.1",
     "textual==8.2.5",
-    "tomlkit==0.14.0",
+    "tomlkit==0.15.0",
     "pydantic==2.13.4",
     "aiohttp[speedups]==3.13.5",
     "yarl==1.23.0",
