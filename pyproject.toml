@@ -7,18 +7,18 @@ license = "MIT"
 authors = [{ name = "NextFire", email = "git@yuru.moe" }]
 requires-python = ">=3.12"
 dependencies = [
-    "typer==0.26.0",
+    "aiohttp[speedups]==3.13.5",
+    "backoff==2.2.1",
+    "click==8.3.3",
+    "guessit==3.8.0",
+    "jinja2==3.1.6",
+    "pydantic==2.13.4",
+    "pymediainfo==7.0.1",
+    "setuptools==82.0.1",        # guessit requirement
     "textual==8.2.7",
     "tomlkit==0.15.0",
-    "pydantic==2.13.4",
-    "aiohttp[speedups]==3.13.5",
+    "typer==0.26.0",
     "yarl==1.24.2",
-    "backoff==2.2.1",
-    "jinja2==3.1.6",
-    "pymediainfo==7.0.1",
-    "guessit==3.8.0",
-    # guessit requirement
-    "setuptools==82.0.1",
 ]
 
 [dependency-groups]
