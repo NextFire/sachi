@@ -2,6 +2,7 @@ from importlib.resources import files
 from pathlib import Path
 from typing import Annotated
 
+import click
 import rich
 import typer
 
@@ -20,7 +21,7 @@ def config():
         content = files(sachi.resources).joinpath("config.toml").read_bytes()
         config_path.write_bytes(content)
     rich.print(f'Editing "{config_path}"')
-    typer.edit(filename=config_path.as_posix())
+    click.edit(filename=config_path.as_posix())
 
 
 @cli_app.command()
