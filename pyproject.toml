@@ -7,7 +7,7 @@ license = "MIT"
 authors = [{ name = "NextFire", email = "git@yuru.moe" }]
 requires-python = ">=3.12"
 dependencies = [
-    "aiohttp[speedups]==3.14.0",
+    "aiohttp[speedups]==3.14.1",
     "backoff==2.2.1",
     "click==8.4.1",
     "guessit==3.8.0",
