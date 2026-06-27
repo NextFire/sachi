@@ -22,7 +22,7 @@ dependencies = [
 ]
 
 [dependency-groups]
-dev = ["pyright==1.1.411", "ruff==0.15.19", "textual-dev==1.8.0"]
+dev = ["pyright==1.1.411", "ruff==0.15.20", "textual-dev==1.8.0"]
 
 [project.scripts]
 sachi = "sachi:cli_app"
