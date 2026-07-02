@@ -15,7 +15,7 @@ dependencies = [
     "pydantic==2.13.4",
     "pymediainfo==7.0.1",
     "setuptools==82.0.1",        # guessit requirement
-    "textual==8.2.7",
+    "textual==8.2.8",
     "tomlkit==0.15.0",
     "typer==0.26.8",
     "yarl==1.24.2",
