@@ -480,16 +480,16 @@ wheels = [
 
 [[package]]
 name = "guessit"
-version = "4.0.2"
+version = "4.1.0"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "babelfish" },
     { name = "python-dateutil" },
     { name = "rebulk" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/b8/1b/1754f4a687dbf54a78d889446ddd27ecc15a2b3b467bb28369193b98e8c1/guessit-4.0.2.tar.gz", hash = "sha256:2788bc8b22d3b444e96ccf2b277377c1a9e6eaac1c9ed4b06cf381c2b4b50e3d", size = 394394, upload-time = "2026-06-29T18:11:39.701Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/e7/c1/3006a4d541b799d85b4bec98edc1a838012223c8614140c348d3b7c56c3d/guessit-4.1.0.tar.gz", hash = "sha256:ad534fb46f261ca455b27fa42fac4c4d9c2d308d7f16a64e0a013ef46ef1a67b", size = 464269, upload-time = "2026-07-03T19:03:11.298Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/d1/46/4817d8289276f0660a291a6f00f90f61e0a44677545027b8869b62faea51/guessit-4.0.2-py3-none-any.whl", hash = "sha256:fa27dbd5b000ab8ea6722f256cb91dc553e57da3cdf2c496b98ec01240fcd406", size = 250844, upload-time = "2026-06-29T18:11:38.562Z" },
+    { url = "https://files.pythonhosted.org/packages/b4/fe/779514ebf68af3fb6006c26028c6b523acd6dd12e6c4684d87032800ad0f/guessit-4.1.0-py3-none-any.whl", hash = "sha256:0a493167b4af4f6a472b43569150b7100ba01e028a519154e05737cc517c4dfe", size = 318601, upload-time = "2026-07-03T19:03:09.606Z" },
 ]
 
 [[package]]
@@ -1096,11 +1096,11 @@ wheels = [
 
 [[package]]
 name = "rebulk"
-version = "6.0.0"
+version = "6.0.1"
 source = { registry = "https://pypi.org/simple" }
-sdist = { url = "https://files.pythonhosted.org/packages/88/4e/e6baeddbf737c900a2c0a6335696b7dcabe2d9efa1384e8a5b7071a3a3f8/rebulk-6.0.0.tar.gz", hash = "sha256:30a5c13bb1266da6246e9e60f5695d34a9c5bed7d820f3ef50826693dea879ab", size = 65891, upload-time = "2026-06-29T13:05:38.911Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/09/d4/77c29644d1f9b1ef2881211c9c2a0f89d437f28c80edbc74c698f23055bd/rebulk-6.0.1.tar.gz", hash = "sha256:d6df0c8c896e160087c6981f3770ed513ec973a9f4066b9e4b0614eb08ba0ce1", size = 66093, upload-time = "2026-07-03T06:59:32.476Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/6c/8b/a853a0294dbb0544ea34eb178d07ebc8626560d5d3e824069dc9add4ec2c/rebulk-6.0.0-py3-none-any.whl", hash = "sha256:f93e5ae00c19149c047a7fb0c7c3c380f340da56f05ebfa4989bcecee4999601", size = 78101, upload-time = "2026-06-29T13:05:37.836Z" },
+    { url = "https://files.pythonhosted.org/packages/01/44/6a16b13cb50ca25cc88928bf85adef1227d21add9c4cd830958d0124d48b/rebulk-6.0.1-py3-none-any.whl", hash = "sha256:fe67fd0af60962c7f3957fa01ef0039c43631c09146228698ee22e20ac33907e", size = 78315, upload-time = "2026-07-03T06:59:31.192Z" },
 ]
 
 [[package]]
@@ -1171,7 +1171,7 @@ requires-dist = [
     { name = "aiohttp", extras = ["speedups"], specifier = "==3.14.1" },
     { name = "backoff", specifier = "==2.2.1" },
     { name = "click", specifier = "==8.4.2" },
-    { name = "guessit", specifier = "==4.0.2" },
+    { name = "guessit", specifier = "==4.1.0" },
     { name = "jinja2", specifier = "==3.1.6" },
     { name = "pydantic", specifier = "==2.13.4" },
     { name = "pymediainfo", specifier = "==7.0.1" },
