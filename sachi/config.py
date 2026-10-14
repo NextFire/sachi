@@ -22,12 +22,12 @@ def read_config() -> tomlkit.TOMLDocument:
     if not config_path.exists():
         rich.print("[red]Missing config file, run `sachi config` to create one")
         raise typer.Exit(1)
-    return tomlkit.parse(config_path.read_bytes())
+    return tomlkit.parse(config_path.read_text(encoding="utf-8"))
 
 
 def write_config(doc: tomlkit.TOMLDocument):
     config_path = get_config_path()
-    config_path.write_text(tomlkit.dumps(doc))
+    config_path.write_text(tomlkit.dumps(doc), encoding="utf-8", newline="")
 
 
 class BaseConfig(BaseModel):
