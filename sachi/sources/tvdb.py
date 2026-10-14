@@ -108,7 +108,7 @@ class TVDBSource(SachiSource[int], media_type=MediaType.SERIES, service="TheTVDB
             giveup=giveup,
             on_backoff=lambda _: self._login(),
         )
-        async def _episodes():
+        async def _fetch_page(page: int):
             async with self.session.get(
                 self.server
                 / "series"
@@ -116,14 +116,25 @@ class TVDBSource(SachiSource[int], media_type=MediaType.SERIES, service="TheTVDB
                 / "episodes"
                 / "default"
                 / "eng",
+                params={"page": page},
                 headers={"Authorization": f"Bearer {self.config.token}"},
             ) as resp:
                 json = await resp.json()
-            return TypeAdapter(list[EpisodeModel]).validate_python(
-                json["data"]["episodes"]
-            )
+            data = json.get("data", {})
+            episodes = data.get("episodes", [])
+            has_next = bool(json.get("links", {}).get("next"))
+            validated = TypeAdapter(list[EpisodeModel]).validate_python(episodes)
+            return validated, has_next
 
-        episodes_res = await _episodes()
+        all_episodes: list[EpisodeModel] = []
+        page = 0
+        while True:
+            episodes_res, has_next = await _fetch_page(page)
+            all_episodes.extend(episodes_res)
+            if not has_next or not episodes_res:
+                break
+            page += 1
+
         return [
             SachiEpisodeModel[int](
                 ref_id=ep.id,
@@ -131,5 +142,5 @@ class TVDBSource(SachiSource[int], media_type=MediaType.SERIES, service="TheTVDB
                 episode=ep.number,
                 name=ep.name,
             )
-            for ep in episodes_res
+            for ep in all_episodes
         ]
