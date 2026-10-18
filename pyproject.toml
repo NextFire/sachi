@@ -16,7 +16,7 @@ dependencies = [
     "pymediainfo==7.0.1",
     "setuptools==84.0.0",        # guessit requirement
     "textual==8.2.8",
-    "tomlkit==0.15.1",
+    "tomlkit==0.15.2",
     "typer==0.27.3",
     "yarl==1.25.1",
 ]
