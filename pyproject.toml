@@ -17,7 +17,7 @@ dependencies = [
     "setuptools==84.2.1",        # guessit requirement
     "textual==8.2.8",
     "tomlkit==0.15.2",
-    "typer==0.29.1",
+    "typer==0.29.2",
     "yarl==1.25.1",
 ]
 
