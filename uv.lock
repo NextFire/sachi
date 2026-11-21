@@ -584,16 +584,16 @@ wheels = [
 
 [[package]]
 name = "guessit"
-version = "4.5.2"
+version = "4.5.3"
 source = { registry = "https://pypi.org/simple" }
 dependencies = [
     { name = "babelfish" },
     { name = "python-dateutil" },
     { name = "rebulk" },
 ]
-sdist = { url = "https://files.pythonhosted.org/packages/59/e8/7a37a798bf8bb9ac37c8117c231c2e9594454010458fb2009446b8e79426/guessit-4.5.2.tar.gz", hash = "sha256:8cda4c3e58b67d72e405a2deb1683226b242825189a25e20844681ca0a34d443", size = 490581, upload-time = "2026-11-17T21:01:05.339Z" }
+sdist = { url = "https://files.pythonhosted.org/packages/14/e3/1fbe5f51a989afa79341489ac21f038b7471d270b14904bb7840855ce793/guessit-4.5.3.tar.gz", hash = "sha256:668adfbc61a5c158253714a0a979c8e7930a710e77e1dac2580423d9ba11985c", size = 491259, upload-time = "2026-11-18T22:17:52.491Z" }
 wheels = [
-    { url = "https://files.pythonhosted.org/packages/e8/81/d3031d14b20124257c1293cccb1b456b7e9945589d72ba0d2f6fd1109404/guessit-4.5.2-py3-none-any.whl", hash = "sha256:00f827a8e6354339894fb301a5f76258bd7d4cc0aaed67e148596d5fa458b58e", size = 343187, upload-time = "2026-11-17T21:01:03.9Z" },
+    { url = "https://files.pythonhosted.org/packages/8b/c6/105625a49bd0d5c16b1923c8bacf1c27edae589f458079abe02ac330d9f3/guessit-4.5.3-py3-none-any.whl", hash = "sha256:85d3a43f23dfa3949e314728ff394bfa3c3079c74afb417f8ee544423e57893c", size = 343438, upload-time = "2026-11-18T22:17:51.096Z" },
 ]
 
 [[package]]
@@ -1474,7 +1474,7 @@ requires-dist = [
     { name = "aiohttp", extras = ["speedups"], specifier = "==3.14.5" },
     { name = "backoff", specifier = "==2.2.1" },
     { name = "click", specifier = "==8.5.1" },
-    { name = "guessit", specifier = "==4.5.2" },
+    { name = "guessit", specifier = "==4.5.3" },
     { name = "jinja2", specifier = "==3.1.6" },
     { name = "pydantic", specifier = "==2.14.3" },
     { name = "pymediainfo", specifier = "==7.0.1" },
